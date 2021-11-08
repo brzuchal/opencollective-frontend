@@ -37,7 +37,7 @@ const PAGES = {
 function importAll(r) {
   const map = {};
   r.keys().map(item => {
-    map[item.replace('./', '')] = r(item);
+    map[item.replace('./', '')] = r(item).default;
   });
   return map;
 }
