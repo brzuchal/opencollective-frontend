@@ -3,9 +3,10 @@ import PropTypes from 'prop-types';
 import { truncate } from 'lodash';
 import { FormattedMessage, injectIntl } from 'react-intl';
 
+import FormattedMoneyAmount from '../../components/FormattedMoneyAmount';
+
 import Avatar, { ContributorAvatar } from '../Avatar';
 import Container from '../Container';
-import FormattedMoneyAmount from '../../components/FormattedMoneyAmount';
 import { Box, Flex } from '../Grid';
 import { H1, P } from '../Text';
 import { withUser } from '../UserProvider';
