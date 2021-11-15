@@ -58,6 +58,7 @@ export const contributionFlowAccountFieldsFragment = gqlV2/* GraphQL */ `
           name
           image
           collectiveSlug
+          totalAmountDonated
         }
       }
     }
